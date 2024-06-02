@@ -2,13 +2,14 @@ import streamlit as st
 import pandas as pd
 import nltk
 import string
+from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
 
 def transform_text(text):
     text = text.lower()
-    text = nltk.word_tokenize(text)
+    text = word_tokenize(text)
     
     y = []
     for i in text:
