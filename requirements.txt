@@ -1,4 +1,3 @@
 nltk
 streamlit
-string
 pandas
