@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import nltk
 import string
-from nltk import word_tokenize
+from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
