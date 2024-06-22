@@ -4,6 +4,5 @@ to run open app.py and open a terminal session. Run the follwing command - after
 
 or click the website https://spam-classifier-vedant.streamlit.app
 
+This is trained using the spam.csv file. May not match real life examples due to this unique dataset
 
-Some Examples of Spams-
-1.)Congratulations! You've won a $1,000 Walmart gift card. Go to http://bit.ly/123456 to claim now.
